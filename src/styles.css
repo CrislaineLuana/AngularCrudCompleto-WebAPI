@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+  width: 100vw;
+  height: 100vh;
+  font-size: 62.5%;
+}
+
+
+mat-card {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 3rem;
+  margin-top: 5rem;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+.input-box {
+  width: 500px;
+}
+
+.btn-box {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-box button {
+  width: 50%;
+}
